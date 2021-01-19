@@ -4,25 +4,26 @@
 
 
 
-.navbar-brand{
-    font-size: 2em;
-    height: 70px;
-    font-family: 'Oswald';
 
+
+
+
+  
+.site-header{
+    background: #FFFF00;
 }
-
-
 
 .navbar-nav{
     font-size: 1.3em;
     font-family: 'Oswald';
     
 }
-  
-.site-header{
-    background: #FFFF00;
-}
+.navbar-brand{
+    font-size: 2em;
+    height: 70px;
+    font-family: 'Oswald';
 
+}
 
 
 
