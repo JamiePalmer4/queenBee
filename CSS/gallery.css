@@ -1,0 +1,82 @@
+.navbar-brand{
+    font-size: 2em;
+    height: 70px;
+    font-family: 'Oswald';
+
+}
+
+
+
+.navbar-nav{
+    font-size: 1.3em;
+    font-family: 'Oswald';
+}
+  
+.site-header{
+    background: #FFFF00;
+}
+
+.page-section-text{
+    font-size: 1.5em;
+    margin:20px;
+    font-family: 'Barlow';
+}
+
+.page-section-title{
+    font-size: 2.2em;
+    font-family: 'Noto Sans JP';
+}
+
+.container {
+    background-color: #f2f2f2;
+    padding: 5px;
+
+}
+
+/*-------Images-----*/
+
+
+
+
+
+
+
+
+
+/*------Footer-------*/
+.page-footer{
+    background-color: #FFFF00;
+    font-family: 'Oswald';}
+    
+.layout-social .layout-icon{
+    font-size: 3em;
+    text-align: right;
+}
+    
+ul.social{
+    display:block;
+    margin: 5% 0;
+    list-style-type: none;
+    text-align: center;
+}
+ul.social li{
+    font-size: 1em;
+    display:inline;
+    padding: 0 2%;
+}
+ul.social li a{
+    color:#666;
+}    
+
+    
+ul.social li.facebook a:hover{color: rgb(59,89,152);}
+ul.social li.twitter a:hover{color: rgb(0,172,237);}
+ul.social li.youtube a:hover{color: rgb(187,0,0);}
+
+
+
+@media screen (max-width: 479px){
+   
+    
+}
+    

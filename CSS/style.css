@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Noto+Sans+JP&family=Oswald&display=swap');
+
+
+
+
+
+.navbar-brand{
+    font-size: 2em;
+    height: 70px;
+    font-family: 'Oswald';
+
+}
+
+
+
+.navbar-nav{
+    font-size: 1.3em;
+    font-family: 'Oswald';
+    
+}
+  
+.site-header{
+    background: #FFFF00;
+}
+
+
+
+
+
+.carousel-item {
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+.item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+
+
+.page-section-text{
+    font-size: 1.7em;
+    font-weight: 200;
+    width: 100%;
+    font-family: 'Barlow';
+
+}
+
+.page-section-title{
+    font-size: 2.2em;
+    font-weight: 150;
+    font-family: 'Noto Sans JP';
+}
+/*Three Images with links below*/
+img{max-width: 100%;}
+
+
+
+
+
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.logo{
+    border-radius: 400px;
+    border: 5px solid #fff;
+}
+
+.logo:hover{opacity:0.8;}
+
+
+
+
+    
+.page-footer{
+    background-color: #FFFF00;
+    font-family: 'Oswald';}
+    
+.layout-social .layout-icon{
+    font-size: 3em;
+    text-align: center;
+}
+    
+ul.social{
+    display:block;
+    margin: 5% 0;
+    list-style-type: none;
+    text-align: center;
+}
+ul.social li{
+    font-size: 1em;
+    display:inline;
+    padding: 0 2%;
+}
+ul.social li a{
+    color:#666;
+}    
+
+    
+ul.social li.facebook a:hover{color: rgb(59,89,152);}
+ul.social li.twitter a:hover{color: rgb(0,172,237);}
+ul.social li.youtube a:hover{color: rgb(187,0,0);}
+    
