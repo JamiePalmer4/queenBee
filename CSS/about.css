@@ -28,23 +28,10 @@
 
 .page-section-text{
     margin:20px;
-    margin-top: 5px;
-    font-size: 1.5em;
+    margin-top: 15px;
+    font-size: 1.4em;
     font-weight: 200;
     font-family: 'Barlow';
-}
-/* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
-@media screen and (min-width: 1201px) {
-  p.page-section-text {
-    font-size: 2vw;
-  }
-}
-
-/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-@media screen and (max-width: 1200px) {
-  p.page-section-text {
-    font-size: 3vw;
-  }
 }
 
 
@@ -108,8 +95,21 @@ input[type=submit]:hover {
 
 /* Add a background color and some padding around the form */
 .container {
-  background-color: #f2f2f2;
-  padding: 5px;
+    background-color: #f2f2f2;
+    padding: 5px;
+    
+  
+}
+.box{
+    border-style:double;
+    border-color:#f8d568;
+    background-color: #fff;
+}
+
+.images{
+    width:  250px;
+    height: 250px;
+    object-fit: cover;
 }
 
 

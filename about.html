@@ -73,13 +73,13 @@
     <hr class="mt-3 mb-5">
     
     <div class="row">
-    
-        <div class="col-sm-6 text-center">
-            <p class="page-section-text">The Queen Bee Café is a company based in the heart of the Scottish Borders, located in the rural town of Melrose. The company itself sell's a range of products such as Bee food products, household products and also a selection of homeware and clothing.
-            </p>
+        <div class="col-lg-6 col-12 text-center">
+            <div class="box">
+                <p class="page-section-text">The Queen Bee Café is a company based in the heart of the Scottish Borders, located in the rural town of Melrose. The company itself sell's a range of products such as Bee food products, household products and also a selection of homeware and clothing.
+                </p>
+            </div>
         </div>
-
-        <div class="col-sm-6">
+        <div class="col-lg-6 col-12">
             <div class="container-fluid">
                 <div class="map-responsive">
                    <iframe class="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18035.717277278858!2d-2.7413698646216424!3d55.59392640270108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4887784e8beca215%3A0x8b4cd1d6acd6f369!2sMelrose!5e0!3m2!1sen!2suk!4v1608223322543!5m2!1sen!2suk" width="800" height="auto" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
@@ -91,24 +91,23 @@
     
     <div class="container-fluid py-2">
         <div class="row">
-            <div class="col-sm-6">
+            <div class="col-lg-6 col-12">
                 <img class="box-image img-fluid rounded mx-auto " src="images/boxes.jpg" max-width="100%" max-height="100%">
             </div>
-
-            <div class="col-sm-6 text-center">
-                <p class="page-section-text">Queen Bee Café products are all naturally sourced and produced in the Scottish Borders. The benefit of having the honey bee's in the Borders is they supply the main raw ingredient for the products. Queen Bee also provide Bee Keeping Course's which are organised each month for small groups. On the Bee Keeping course it gives people the full insight into how we gather all of our raw ingredients for our product's and what all happens in the production process. 
-                </p>
-
-            </div>
-
-
+            
+                <div class="col-lg-6 col-12 text-center">
+                    <div class="box">
+                        <p class="page-section-text">Queen Bee Café products are all naturally sourced and produced in the Scottish Borders. The benefit of having the honey bee's in the Borders is they supply the main raw ingredient for the products. Queen Bee also provide Bee Keeping Course's which are organised each month for small groups. On the Bee Keeping course it gives people the full insight into how we gather all of our raw ingredients for our product's and what all happens in the production process. 
+                        </p>
+                    </div>
+                </div>
         </div>
     </div>    
 </div>
     
 <div class="container text-left">
   <form action="action_page.php">
-      <h2 class="page-section-title"><u>
+      <h2 class="page-section-title text-center"><u>
           Contact Us
           </u></h2>
        
@@ -122,16 +121,67 @@
 
             <label for="subject">Subject</label>
             <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-            <input type="submit" value="Submit">
+            <div class="container text-center">
+                <input type="submit" value="Submit">
+            </div>
       
       
      
     </form>
-</div>
+</div> 
+<div class="container">
+    <div class="row text-center">
+        <hr class="w-75 mt-3 mb-5">
+        <div class="col-lg-4 col-md-4 col-12">
+          <a href="images/pexel/coffee.jpg" class="d-block mb-4 h-100">
+                <img class="images img-fluid img-thumbnail" src="images/pexel/coffee.jpg" alt="">
+              </a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-12">
+          <a href="images/pexel/keeper.jpg" class="d-block mb-4 h-100">
+                <img class="images img-fluid img-thumbnail" src="images/pexel/keeper.jpg" alt="">
+              </a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-12">
+          <a href="images/pexel/honeycombs.jpg" class="d-block mb-4 h-100">
+                <img class="images img-fluid img-thumbnail" src="images/pexel/honeycombs.jpg" alt="">
+              </a>
+        </div>
+        <hr class="w-75 mt-3 mb-5">
+    </div>
     
+</div>    
+    
+    
+    
+    
+    <div class="container">
+        <form action="action_page.php">
+          <div class="container">
+            <h2 class="page-section-title text-center">Subscribe to our Newsletter</h2>
+            <p class="page-section-text text-center">If you would like to recieve emails from us whether it be daily or weekly you can sign up below for the latest updates with the Queen Bee Cafe and new deals in our cafe.</p>
+          </div>
 
-    
+          <div class="container text-center" style="background-color:white">
+            <input type="text" placeholder="Name" name="name" required>
+            <input type="text" placeholder="Email address" name="mail" required>
+            <label>
+              <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+                <input type="checkbox" checked="checked" name="subscribe">Weekly Newsletter
+                
+            </label>
+          </div>
+
+          <div class="container text-center">
+            <input type="submit" value="Subscribe">
+          </div>
+        </form>
+    </div>
+
+
+
+
+
     
 
 
