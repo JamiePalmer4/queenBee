@@ -50,12 +50,15 @@
     background-color: #fff;
     
 }
-
+.page-section-text-box{
+    font-size: 1.7em;
+    font-weight: 200;
+    width: 100%;
+    font-family: 'Barlow';
 }
 
 .page-section-title{
     font-size: 2.2em;
-    font-weight: 150;
     font-family: 'Noto Sans JP';
 }
 /*Three Images with links below*/
@@ -84,6 +87,8 @@ img{max-width: 100%;}
   background-color: #f2f2f2;
   padding: 20px;
 }
+
+
 
 .logo{
     border-radius: 400px;
