@@ -24,7 +24,7 @@
 
 .page-section-title{
     font-size: 2.2em;
-    font-family: 'Noto Sans JP';
+    font-family: 'Barlow';
 }
 
 .container {
@@ -80,8 +80,6 @@ ul.social li.youtube a:hover{color: rgb(187,0,0);}
 
 
 
-@media screen (max-width: 479px){
-   
-    
-}
+
+
     
