@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Noto+Sans+JP&family=Oswald&display=swap');
+
 
 
 
@@ -24,7 +24,6 @@
     font-family: 'Oswald';
 
 }
-
 
 
 .carousel-item {
@@ -59,7 +58,7 @@
 
 .page-section-title{
     font-size: 2.2em;
-    font-family: 'Noto Sans JP';
+    font-family: 'Barlow';
 }
 /*Three Images with links below*/
 img{max-width: 100%;}
