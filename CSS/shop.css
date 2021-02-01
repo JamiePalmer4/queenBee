@@ -89,10 +89,3 @@ ul.social li.twitter a:hover{color: rgb(0,172,237);}
 ul.social li.youtube a:hover{color: rgb(187,0,0);}
     
 
-@media (max-width: 479px){
-    img{height:20px}
-    ul.social{text-align:center;}
-    ul.social li a{font-size: 0.75em;}
-    
-    
-}
