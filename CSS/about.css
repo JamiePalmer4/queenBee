@@ -114,7 +114,14 @@ input[type=submit]:hover {
     object-fit: cover;
 }
 
-
+.btn{
+    background-color:purple;
+    color: #fff;
+    
+}
+.btn:hover{
+    background-color: #000;
+}
 
 
 
